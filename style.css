@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #57068c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.score-card {
+  text-align: center;
+  padding: 30px;
+}
+
+#esgScore {
+  font-size: 48px;
+  font-weight: bold;
+  color: #57068c;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.budget {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
